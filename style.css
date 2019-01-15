@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-
+body{
+    background-color: rgb(241, 238, 238);
+}
 .header-container {
-    box-shadow: 0px 2px rgb(231, 229, 229);
+    width: 100%;
+    box-shadow: 0px 2px rgb(189, 182, 182);
     background-color: #fff;
-    font-family: Roboto;
-    font-size: 14px;
 }
 .header-container .logo {
     max-width: 60px;
@@ -33,7 +34,6 @@
 }
 .header-container .nav-menu .item-link {
     padding: 10px 5px;
-   
     display: block;
     position: relative;
     color: #333;
@@ -47,7 +47,7 @@
     left: 0;
     height: 3px;
     background-color: #ccc;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
 
 .header-container .nav-menu .item-link:hover:after {
@@ -71,7 +71,7 @@
     padding: 10px 0;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
 .header-container .has-sub-menu .sub-menu .item-link {
     padding: 10px 0;
