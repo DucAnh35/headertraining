@@ -4,44 +4,44 @@ body{
     padding: 0;
     margin: 0;
 }
-.header-container {
+.top-header{
     width: 100%;
     box-shadow:  5px 2px 5px rgb(150, 135, 135);
     background-color: #fff;
 }
-.header-container .logo {
+.top-header .logo {
     max-width: 60px;
     min-width: 60px;
    
 }
-.header-container .logo .img-logo {
+.top-header .logo .img-logo {
     max-width: 100%;
     height: auto;
     margin-left: 100px;
 }
-.header-container .nav-menu {
+.top-header .nav-menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 60px;
     margin-top: -70px;
 }
-.header-container .nav-menu .list-menu {
+.top-header .nav-menu .list-menu {
     display: flex;
     font-family: 'Playfair Display', serif;
 }
-.header-container .nav-menu .menu-item {
+.top-header .nav-menu .menu-item {
     padding: 5px 15px;
     list-style-type: none;
 }
-.header-container .nav-menu .item-link {
+.top-header .nav-menu .item-link {
     padding: 10px 5px;
     display: block;
     position: relative;
     color: #333;
     text-decoration: none;
 }
-.header-container .nav-menu .item-link:after {
+.top-header .nav-menu .item-link:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -52,21 +52,21 @@ body{
     transition: all 0.4s;
 }
 
-.header-container .nav-menu .item-link:hover:after {
+.top-header .nav-menu .item-link:hover:after {
     width: 100%;
 }
-.header-container .has-sub-menu{
+.top-header .train-menu{
     position: relative;
 }
-.header-container .has-sub-menu > .item-link:after {
+.top-header .train-menu > .item-link:after {
     display: none;
 }
-.header-container .has-sub-menu:hover .sub-menu {
+.top-header .train-menu:hover .sub-menu {
     opacity: 1;
     visibility: visible;
     top: 100%;
 }
-.header-container .has-sub-menu .sub-menu {
+.top-header .train-menu .sub-menu {
     position: absolute;
     background-color: #fff;
     box-shadow: 0 10px 15px rgba(95, 89, 89, 0.2);
@@ -75,7 +75,7 @@ body{
     visibility: hidden;
     transition: all 0.4s;
 }
-.header-container .has-sub-menu .sub-menu .item-link {
+.top-header .train-menu .sub-menu .item-link {
     padding: 10px 0;
     display: inline-block;
 }
